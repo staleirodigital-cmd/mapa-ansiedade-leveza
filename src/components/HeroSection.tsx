@@ -28,7 +28,7 @@ export default function HeroSection() {
           <div className="order-first lg:order-last">
             <div className="relative">
               <img 
-                src={heroImage} 
+                src="https://healthyodyssey.com/wp-content/uploads/2025/09/Untitled-design-28.png" 
                 alt="Psicóloga Maria Antunes em ambiente acolhedor" 
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
