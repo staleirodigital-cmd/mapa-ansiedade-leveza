@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Cores específicas do Mapa da Ansiedade
+				chocolate: 'hsl(var(--chocolate))',
+				'brown-medium': 'hsl(var(--brown-medium))',
+				'beige-light': 'hsl(var(--beige-light))',
+				'gold-soft': 'hsl(var(--gold-soft))',
+				straw: 'hsl(var(--straw))',
+				'gray-sand': 'hsl(var(--gray-sand))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

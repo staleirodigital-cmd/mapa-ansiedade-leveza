@@ -2,41 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Mapa da Ansiedade Design System - Cores acolhedoras e profissionais
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Cores principais do projeto */
+    --background: 33 35% 96%;          /* Bege Claro #F8F5F0 */
+    --foreground: 25 42% 21%;          /* Chocolate #4B2E20 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 33 35% 96%;                /* Bege Claro */
+    --card-foreground: 25 42% 21%;     /* Chocolate */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 33 35% 96%;
+    --popover-foreground: 25 42% 21%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 32 29% 43%;             /* Marrom Médio #8B6B4E */
+    --primary-foreground: 0 0% 100%;   /* Branco */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 31 36% 84%;           /* Palha #EADBC8 */
+    --secondary-foreground: 25 42% 21%; /* Chocolate */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 31 36% 84%;               /* Palha */
+    --muted-foreground: 33 15% 76%;    /* Cinza Areia #C9C1B8 */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 36 50% 70%;              /* Dourado Suave #D6B98C */
+    --accent-foreground: 25 42% 21%;   /* Chocolate */
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 33 15% 76%;              /* Cinza Areia */
+    --input: 0 0% 100%;                /* Branco para inputs */
+    --ring: 32 29% 43%;                /* Marrom Médio */
 
-    --radius: 0.5rem;
+    /* Cores específicas do projeto */
+    --chocolate: 25 42% 21%;           /* #4B2E20 */
+    --brown-medium: 32 29% 43%;        /* #8B6B4E */
+    --beige-light: 33 35% 96%;         /* #F8F5F0 */
+    --gold-soft: 36 50% 70%;           /* #D6B98C */
+    --straw: 31 36% 84%;               /* #EADBC8 */
+    --gray-sand: 33 15% 76%;           /* #C9C1B8 */
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
