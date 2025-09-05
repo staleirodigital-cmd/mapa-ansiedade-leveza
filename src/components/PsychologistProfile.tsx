@@ -10,7 +10,7 @@ export default function PsychologistProfile() {
             <div className="order-2 lg:order-1">
               <div className="relative">
                 <img 
-                  src={profileImage} 
+                  src="https://healthyodyssey.com/wp-content/uploads/2025/09/e2be98de-c875-45bd-8367-be8100c5cc12.jpeg" 
                   alt="Maria Antunes - Psicóloga especialista em ansiedade" 
                   className="w-full h-auto rounded-2xl shadow-2xl"
                 />
