@@ -25,20 +25,8 @@ export default function Testimonials() {
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div 
-                key={index}
-                className="bg-white/70 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
-              >
-                <Quote className="w-8 h-8 text-gold-soft mb-4" />
-                <p className="text-chocolate mb-6 leading-relaxed text-lg">
-                  "{testimonial.text}"
-                </p>
-                <p className="font-semibold text-brown-medium">
-                  — {testimonial.name}
-                </p>
-              </div>
-            ))}
+            <img src="https://healthyodyssey.com/wp-content/uploads/2025/09/54fb458b-deb6-4c01-8734-53ff501ae2af.jpeg">
+<img src="https://healthyodyssey.com/wp-content/uploads/2025/09/af14daa9-c59a-4c4c-bc3b-99ece69d7f61.jpeg"><img src="https://healthyodyssey.com/wp-content/uploads/2025/09/Captura-de-tela-2025-09-05-111910.png"><img src="https://healthyodyssey.com/wp-content/uploads/2025/09/Captura-de-tela-2025-09-05-111955.png"><img src="https://healthyodyssey.com/wp-content/uploads/2025/09/f772bdad-eb35-4f45-a3c4-2ec1ebdce5e9.jpeg">
           </div>
         </div>
       </div>
