@@ -1,5 +1,8 @@
 import { Quote } from "lucide-react";
 
+export default function Testimonials() {
+  return 
+
     <section className="bg-beige-light py-16">
   <div className="container mx-auto px-4">
     <div className="max-w-6xl mx-auto">
@@ -17,3 +20,5 @@ import { Quote } from "lucide-react";
     </div>
   </div>
 </section>
+;
+}
