@@ -20,7 +20,6 @@ const Index = () => {
       <PsychologistProfile />
       <Testimonials />
       <FinalCTA />
-      <QualificationForm />
       <Footer />
     </div>
   );
