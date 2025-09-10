@@ -17,7 +17,12 @@ export default function FinalCTA() {
             Reserve agora sua sessão gratuita e receba seu diagnóstico emocional.
           </p>
 
-          <Button variant="cta-final" size="xl" className="w-full lg:w-auto">
+          <Button 
+            variant="cta-final" 
+            size="xl" 
+            className="w-full lg:w-auto whitespace-normal text-center leading-snug"
+            onClick={() => window.open('https://www.typeform.com/templates/product-recommendation-quiz-template', '_blank')}
+          >
             👉 Quero reservar minha sessão gratuita agora
           </Button>
 

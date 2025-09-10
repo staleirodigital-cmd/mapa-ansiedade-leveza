@@ -19,8 +19,8 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         // Variantes específicas para Mapa da Ansiedade
-        cta: "bg-brown-medium text-white hover:bg-gold-soft hover:text-chocolate font-semibold shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105",
-        "cta-final": "bg-chocolate text-white hover:bg-straw hover:text-chocolate font-semibold shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105"
+        cta: "bg-brown-medium text-white hover:bg-gold-soft hover:text-chocolate font-semibold shadow-lg cta-animate",
+        "cta-final": "bg-chocolate text-white hover:bg-straw hover:text-chocolate font-semibold shadow-lg cta-animate"
       },
       size: {
         default: "h-10 px-4 py-2",

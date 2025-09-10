@@ -24,11 +24,19 @@ export default function MapaExplanation() {
             O que é o Mapa da Ansiedade?
           </h2>
           
-          <p className="text-xl text-brown-medium mb-12 leading-relaxed">
+          <p className="text-xl text-brown-medium mb-8 leading-relaxed">
             Nada de conselhos genéricos ou conversa superficial.
             <br />
             A sessão estratégica de 30 minutos comigo te ajuda a:
           </p>
+          
+          <div className="mb-12">
+            <img 
+              src="/lovable-uploads/4a7176c2-1c20-455e-b283-6b616c19191c.png" 
+              alt="E-book Mapa da Ansiedade - Guia completo para entender e superar a ansiedade" 
+              className="w-full max-w-md mx-auto rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+            />
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (

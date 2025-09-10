@@ -19,7 +19,12 @@ export default function HeroSection() {
                 🔍 30 minutos. Online. Direto ao ponto. Gratuito.
               </p>
             </div>
-            <Button variant="cta" size="xl" className="w-full lg:w-auto">
+            <Button 
+              variant="cta" 
+              size="xl" 
+              className="w-full lg:w-auto whitespace-normal text-center leading-snug"
+              onClick={() => window.open('https://www.typeform.com/templates/product-recommendation-quiz-template', '_blank')}
+            >
               👉 Quero meu Mapa da Ansiedade gratuito
             </Button>
           </div>

@@ -1,4 +1,4 @@
-import { Shield, Heart } from "lucide-react";
+import { Shield, Heart, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -34,10 +34,23 @@ export default function Footer() {
             </p>
           </div>
 
+          {/* Instagram */}
+          <div className="mt-8 flex justify-center">
+            <a 
+              href="https://www.instagram.com/psicologa.mariaantunes/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center text-brown-medium hover:text-chocolate transition-colors duration-300 hover:scale-110 transform"
+            >
+              <Instagram className="w-6 h-6 mr-2" />
+              <span className="text-lg">@psicologa.mariaantunes</span>
+            </a>
+          </div>
+
           {/* Copyright */}
           <div className="mt-8 pt-8 border-t border-gray-sand/30">
             <p className="text-gray-sand text-sm">
-              © {new Date().getFullYear()} Maria Antunes - Psicóloga CRP XX/XXXXX. Todos os direitos reservados.
+              © {new Date().getFullYear()} Maria Antunes - Psicóloga CRP 09/14827. Todos os direitos reservados.
             </p>
           </div>
         </div>

@@ -86,7 +86,12 @@ export default function QualificationForm() {
               </Select>
             </div>
 
-            <Button variant="cta" size="xl" className="w-full">
+            <Button 
+              variant="cta" 
+              size="xl" 
+              className="w-full whitespace-normal text-center leading-snug"
+              onClick={() => window.open('https://www.typeform.com/templates/product-recommendation-quiz-template', '_blank')}
+            >
               👉 Quero reservar minha sessão gratuita agora
             </Button>
 
