@@ -1,0 +1,91 @@
+/* Mapa da Ansiedade - Static Export Styles */
+
+/* Design System Colors - HSL format */
+:root {
+  --background: hsl(33, 35%, 96%);          /* Bege Claro #F8F5F0 */
+  --foreground: hsl(25, 42%, 21%);          /* Chocolate #4B2E20 */
+  --primary: hsl(32, 29%, 43%);             /* Marrom Médio #8B6B4E */
+  --secondary: hsl(31, 36%, 84%);           /* Palha #EADBC8 */
+  --accent: hsl(36, 50%, 70%);              /* Dourado Suave #D6B98C */
+  --chocolate: hsl(25, 42%, 21%);
+  --brown-medium: hsl(32, 29%, 43%);
+  --beige-light: hsl(33, 35%, 96%);
+  --gold-soft: hsl(36, 50%, 70%);
+  --straw: hsl(31, 36%, 84%);
+  --gray-sand: hsl(33, 15%, 76%);
+  --shadow-elegant: 0 10px 30px -10px hsl(32, 29%, 43%, 0.3);
+  --cta-float: 0 8px 25px rgba(139, 107, 78, 0.15);
+  --cta-hover-float: 0 15px 35px rgba(139, 107, 78, 0.25);
+}
+
+/* Base */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--beige-light); color: var(--chocolate); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; }
+
+/* Container & Sections */
+.mapa-container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+.mapa-section { padding: 4rem 0; }
+.bg-beige-light { background-color: var(--beige-light); }
+.bg-straw { background-color: var(--straw); }
+
+/* Typography */
+.mapa-h1 { font-size: 2.5rem; font-weight: 700; color: var(--chocolate); line-height: 1.2; margin-bottom: 1.5rem; }
+.mapa-h2 { font-size: 2rem; font-weight: 700; color: var(--chocolate); line-height: 1.3; margin-bottom: 3rem; text-align: center; }
+.mapa-text-lg { font-size: 1.125rem; color: var(--brown-medium); margin-bottom: 2rem; }
+.mapa-text-xl { font-size: 1.25rem; color: var(--chocolate); font-weight: 600; }
+
+/* Grid */
+.mapa-grid-2 { display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: center; }
+.mapa-grid-items { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+
+/* Cards */
+.mapa-card { background: rgba(255,255,255,0.6); padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: all 0.3s ease; }
+.mapa-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.15); transform: translateY(-2px); }
+.mapa-card-white { background: rgba(255,255,255,0.8); padding: 2rem; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; }
+
+/* Buttons */
+.mapa-btn { display: inline-flex; align-items: center; justify-content: center; padding: 1rem 3rem; border: none; border-radius: 8px; font-size: 1.125rem; font-weight: 600; text-decoration: none; cursor: pointer; transition: all 0.3s cubic-bezier(0.4,0,0.2,1); white-space: normal; text-align: center; line-height: 1.4; min-height: 3.5rem; }
+.mapa-btn-cta { background-color: var(--brown-medium); color: white; box-shadow: var(--cta-float); animation: cta-float 3s ease-in-out infinite; }
+.mapa-btn-cta:hover { background-color: var(--gold-soft); color: var(--chocolate); box-shadow: var(--cta-hover-float); animation-play-state: paused; transform: translateY(-5px) scale(1.05); }
+.mapa-btn-final { background-color: var(--chocolate); color: white; box-shadow: var(--cta-float); animation: cta-float 3s ease-in-out infinite; }
+.mapa-btn-final:hover { background-color: var(--straw); color: var(--chocolate); box-shadow: var(--cta-hover-float); animation-play-state: paused; transform: translateY(-5px) scale(1.05); }
+
+/* Animations */
+@keyframes cta-float { 0%,100%{transform:translateY(0) scale(1)} 50%{transform:translateY(-3px) scale(1.02)} }
+
+/* Items */
+.mapa-item { display: flex; align-items: flex-start; gap: 1rem; padding: 1.5rem; background: rgba(255,255,255,0.5); border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; }
+.mapa-item:hover { box-shadow: 0 4px 15px rgba(0,0,0,0.12); }
+.mapa-emoji { font-size: 2rem; flex-shrink: 0; }
+.mapa-item-text { font-size: 1.125rem; color: var(--chocolate); font-weight: 500; }
+
+/* Check */
+.mapa-check-item { display: flex; align-items: center; gap: 1rem; padding: 1rem; background: rgba(255,255,255,0.6); border-radius: 12px; box-shadow: 0 1px 5px rgba(0,0,0,0.08); }
+.mapa-check-icon { width: 2rem; height: 2rem; color: var(--brown-medium); flex-shrink: 0; }
+
+/* Images */
+.mapa-hero-image { width: 100%; height: auto; border-radius: 16px; box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+.mapa-profile-image { width: 100%; max-width: 400px; height: auto; border-radius: 16px; box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+.mapa-ebook-image { width: 100%; max-width: 300px; height: auto; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); margin: 2rem auto; display: block; }
+
+/* Footer */
+.mapa-footer { background-color: var(--beige-light); border-top: 1px solid var(--gray-sand); padding: 3rem 0; text-align: center; }
+.mapa-instagram-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--brown-medium); text-decoration: none; font-size: 1.125rem; transition: all 0.3s ease; }
+.mapa-instagram-link:hover { color: var(--chocolate); transform: scale(1.1); }
+.mapa-instagram-icon { width: 1.5rem; height: 1.5rem; }
+
+/* Responsive */
+@media (min-width: 768px) {
+  .mapa-h1 { font-size: 3.5rem; }
+  .mapa-h2 { font-size: 2.5rem; }
+  .mapa-grid-2 { grid-template-columns: 1fr 1fr; gap: 3rem; }
+  .mapa-grid-items { grid-template-columns: repeat(2, 1fr); }
+  .mapa-container { padding: 0 2rem; }
+}
+@media (min-width: 1024px) {
+  .mapa-h1 { font-size: 4rem; text-align: left; }
+  .mapa-text-lg { font-size: 1.25rem; }
+}
+
+/* Acessibilidade: reduzir animação */
+.reduce-motion .mapa-btn-cta, .reduce-motion .mapa-btn-final { animation: none !important; }

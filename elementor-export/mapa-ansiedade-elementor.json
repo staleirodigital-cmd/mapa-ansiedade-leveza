@@ -1,0 +1,324 @@
+{
+  "version": "0.4",
+  "title": "Mapa da Ansiedade — Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "20",
+        "content_width": "boxed",
+        "background_background": "classic",
+        "background_color": "#F8F5F0",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "heroColLeftA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50, "_inline_size": null },
+          "elements": [
+            {
+              "id": "heroHeadingA1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Mapa da Ansiedade — Sessão gratuita",
+                "header_size": "h1",
+                "title_color": "#4B2E20",
+                "align": "left"
+              }
+            },
+            {
+              "id": "heroTextA1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Em 30 minutos vamos mapear seus gatilhos, organizar emoções e dar um primeiro passo claro — sem pressão, 100% gratuito.</p>",
+                "align": "left"
+              }
+            },
+            {
+              "id": "heroBtnA1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero meu Mapa gratuito",
+                "size": "lg",
+                "align": "left",
+                "button_css_id": "ctaHeroA1",
+                "link": { "url": "https://www.typeform.com/templates/product-recommendation-quiz-template", "is_external": true, "nofollow": false, "custom_attributes": "" }
+              }
+            }
+          ]
+        },
+        {
+          "id": "heroColRightA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50, "_inline_size": null },
+          "elements": [
+            {
+              "id": "heroImageA1",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "https://via.placeholder.com/1200x800", "id": "", "size": "", "source": "external" },
+                "image_size": "large",
+                "align": "center",
+                "caption": "",
+                "link_to": "none"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "emoc1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "10",
+        "background_background": "classic",
+        "background_color": "#EADBC8",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "emocColA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            { "id": "emocH2A1", "elType": "widget", "widgetType": "heading", "settings": { "title": "Você sente que...", "header_size": "h2", "title_color": "#4B2E20", "align": "center" } },
+            {
+              "id": "emocListA1",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "align": "center",
+                "icon_list": [
+                  { "text": "Sua mente vive acelerada, cheia de pensamentos negativos?", "selected_icon": { "value": "fas fa-brain", "library": "fa-solid" } },
+                  { "text": "O sono não vem porque a cabeça não desliga?", "selected_icon": { "value": "fas fa-moon", "library": "fa-solid" } },
+                  { "text": "Parece que algo ruim está sempre prestes a acontecer?", "selected_icon": { "value": "fas fa-exclamation-triangle", "library": "fa-solid" } },
+                  { "text": "Você se cobra demais e ainda sente que não é o suficiente?", "selected_icon": { "value": "fas fa-circle-notch", "library": "fa-solid" } }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "oqe1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "background_color": "#F8F5F0",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "oqeColLeftA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50, "_inline_size": null },
+          "elements": [
+            { "id": "oqeH2A1", "elType": "widget", "widgetType": "heading", "settings": { "title": "O que é o Mapa da Ansiedade?", "header_size": "h2", "title_color": "#4B2E20", "align": "left" } },
+            { "id": "oqeText1A1", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Em 30 minutos, identificamos pensamentos automáticos, entendemos como eles afetam suas emoções e encontramos um ponto de partida prático pra mudança.</p>" } },
+            { "id": "oqeText2A1", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>É um momento de acolhimento, clareza e direção — para você se enxergar com mais gentileza e leveza.</p>" } }
+          ]
+        },
+        {
+          "id": "oqeColRightA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50, "_inline_size": null },
+          "elements": [
+            { "id": "ebookImgA1", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/800x1000", "id": "", "size": "", "source": "external" }, "image_size": "large", "align": "center" } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "target1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "10",
+        "background_background": "classic",
+        "background_color": "#F8F5F0",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "targetColA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            { "id": "targetH2A1", "elType": "widget", "widgetType": "heading", "settings": { "title": "Essa sessão é pra você se...", "header_size": "h2", "title_color": "#4B2E20", "align": "center" } },
+            { "id": "targetListA1", "elType": "widget", "widgetType": "icon-list", "settings": { "align": "center", "icon_list": [
+              { "text": "Sentir que a ansiedade está influenciando suas decisões", "selected_icon": { "value": "fas fa-brain", "library": "fa-solid" } },
+              { "text": "Estar exausta de tentar sozinha e não ver mudança real", "selected_icon": { "value": "fas fa-briefcase", "library": "fa-solid" } },
+              { "text": "Ter dificuldade em dormir ou relaxar", "selected_icon": { "value": "fas fa-moon", "library": "fa-solid" } },
+              { "text": "Sofrer com autocobrança, medo constante e mente acelerada", "selected_icon": { "value": "fas fa-bolt", "library": "fa-solid" } }
+            ] } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "benef1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "10",
+        "background_background": "classic",
+        "background_color": "#EADBC8",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "benefColA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            { "id": "benefH2A1", "elType": "widget", "widgetType": "heading", "settings": { "title": "O que você leva da sessão:", "header_size": "h2", "title_color": "#4B2E20", "align": "center" } },
+            { "id": "benefListA1", "elType": "widget", "widgetType": "icon-list", "settings": { "align": "center", "icon_list": [
+              { "text": "Um mapa emocional do que está te bloqueando", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+              { "text": "Clareza sobre os gatilhos da sua ansiedade", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+              { "text": "Um direcionamento prático pra sair do ciclo da autocobrança", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+              { "text": "A oportunidade de conhecer o caminho completo — caso queira continuar", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } }
+            ] } },
+            { "id": "benefNoteA1", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>💡 A sessão é gratuita. O acompanhamento completo será apresentado apenas se fizer sentido pra você. <strong>Sem pressão.</strong></p>", "align": "center" } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "perfil1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "background_color": "#F8F5F0",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "perfilColLeftA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50, "_inline_size": null },
+          "elements": [
+            { "id": "perfilImgA1", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/800x1000", "id": "", "size": "", "source": "external" }, "image_size": "large", "align": "center" } }
+          ]
+        },
+        {
+          "id": "perfilColRightA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50, "_inline_size": null },
+          "elements": [
+            { "id": "perfilH2A1", "elType": "widget", "widgetType": "heading", "settings": { "title": "Maria Antunes (CRP 09/14827)", "header_size": "h2", "title_color": "#4B2E20", "align": "left" } },
+            { "id": "perfilTextA1", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Psicóloga especializada em Terapia Cognitivo-Comportamental, com foco em ansiedade em mulheres. Criei o Mapa da Ansiedade para te ajudar a entender seus padrões emocionais com clareza e acolhimento.</p><p>Meu compromisso é te oferecer um caminho prático e gentil para reduzir a autocobrança e recuperar sua autonomia.</p>" } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "depo1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "10",
+        "background_background": "classic",
+        "background_color": "#F8F5F0",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "depoColA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            { "id": "depoH2A1", "elType": "widget", "widgetType": "heading", "settings": { "title": "O que dizem as mulheres que já passaram pela sessão:", "header_size": "h2", "title_color": "#4B2E20", "align": "center" } },
+            { "id": "depoGalleryA1", "elType": "widget", "widgetType": "image-gallery", "settings": { "gallery": [
+              { "id": "g1", "url": "https://healthyodyssey.com/wp-content/uploads/2025/09/54fb458b-deb6-4c01-8734-53ff501ae2af.jpeg" },
+              { "id": "g2", "url": "https://healthyodyssey.com/wp-content/uploads/2025/09/af14daa9-c59a-4c4c-bc3b-99ece69d7f61.jpeg" },
+              { "id": "g3", "url": "https://healthyodyssey.com/wp-content/uploads/2025/09/Captura-de-tela-2025-09-05-111910.png" },
+              { "id": "g4", "url": "https://healthyodyssey.com/wp-content/uploads/2025/09/Captura-de-tela-2025-09-05-111955.png" },
+              { "id": "g5", "url": "https://healthyodyssey.com/wp-content/uploads/2025/09/f772bdad-eb35-4f45-a3c4-2ec1ebdce5e9.jpeg" }
+            ], "columns": 3 } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "cta1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "10",
+        "background_background": "classic",
+        "background_color": "#EADBC8",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ctaColA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            { "id": "ctaH2A1", "elType": "widget", "widgetType": "heading", "settings": { "title": "Vagas limitadas nesta semana", "header_size": "h2", "title_color": "#4B2E20", "align": "center" } },
+            { "id": "ctaTextA1", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Reserve sua sessão gratuita agora e comece a destravar o ciclo da ansiedade com clareza.</p>", "align": "center" } },
+            { "id": "ctaBtnA1", "elType": "widget", "widgetType": "button", "settings": { "text": "Agendar minha sessão gratuita", "size": "lg", "align": "center", "button_css_id": "ctaFinalA1", "link": { "url": "https://www.typeform.com/templates/product-recommendation-quiz-template", "is_external": true, "nofollow": false, "custom_attributes": "" } } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "footer1a2b3c4d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "structure": "10",
+        "background_background": "classic",
+        "background_color": "#F8F5F0",
+        "padding": { "unit": "px", "top": "48", "right": "0", "bottom": "48", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "footerColA1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            { "id": "footerTextA1", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p><strong>Mapa da Ansiedade</strong> — por Maria Antunes (CRP 09/14827)</p>", "align": "center" } },
+            { "id": "footerIconListA1", "elType": "widget", "widgetType": "icon-list", "settings": { "align": "center", "icon_list": [ { "text": "Instagram", "link": { "url": "https://www.instagram.com/psicologa.mariaantunes/", "is_external": true, "nofollow": false }, "selected_icon": { "value": "fab fa-instagram", "library": "fa-brands" } } ] } },
+            { "id": "footerCopyA1", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>©  A0Maria Antunes — Todos os direitos reservados.</p>", "align": "center" } }
+          ]
+        }
+      ]
+    }
+  ]
+}
